@@ -1,6 +1,6 @@
 {
-  "name": "egg-mongoose",
-  "version": "2.2.1",
+  "name": "@ustack/egg-mongoose",
+  "version": "2.2.2",
   "description": "egg mongoose plugin",
   "eggPlugin": {
     "name": "mongoose"
@@ -51,7 +51,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-mongoose.git"
+    "url": "git+https://github.com/unitedstack/egg-mongoose.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
