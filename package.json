@@ -1,6 +1,6 @@
 {
   "name": "@ustack/egg-mongoose",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "egg mongoose plugin",
   "eggPlugin": {
     "name": "mongoose"
