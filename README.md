@@ -166,12 +166,12 @@ exports.mongoose = {
 exports.mongoose = {
   url: 'mongodb://127.0.0.1/example',
   options: {},
-  modelName: 'mongoose'
+  modelName: 'mongo'
 };
 ```
  ### Example
  ```js
-// {app_root}/app/mongoose/book.js
+// {app_root}/app/mongo/book.js
 module.exports = app => {
   const mongoose = app.mongoose;
   const Schema = mongoose.Schema;
@@ -183,7 +183,7 @@ module.exports = app => {
 }
  // app/controller/book.js
 exports.index = function* (ctx) {
-  ctx.body = yield ctx.mongoose.Book.find({});
+  ctx.body = yield ctx.mongo.Book.find({});
 }
 ```
 
